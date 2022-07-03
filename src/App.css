@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+header {
+  background-color: #020202;
+  color: white;
+  padding: 20px;
+  /* border-right: 2px dotted grey; */
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul a {
+  color: #aaa;
+  text-decoration: none;
+  padding: 10px;
+  border-top: 1px dotted grey;
+}
+
+nav ul a:first-of-type {
+  border-top: none;
+  margin-top: 10px;
+}
+
+nav ul a:hover {
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  margin: 10px 0px;
+}
+
+p {
+  margin: 5px 0px;
+}
+
+main {
+  border: 30px solid black;
+}
