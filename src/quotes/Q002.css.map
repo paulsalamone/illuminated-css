@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,KADC,CACD,GAAG,CAAC;EACA,gBAAgB,EAAE,SAAS;CAQ9B;;AAVL,AAIQ,KAJH,CACD,GAAG,CAGC,CAAC,CAAC;EACE,WAAW,EAAE,yDAAyD;EACtE,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,GAAG;CACb",
+    "sources": [
+        "Q002.scss"
+    ],
+    "names": [],
+    "file": "Q002.css"
+}

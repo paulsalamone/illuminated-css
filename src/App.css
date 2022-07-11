@@ -42,10 +42,31 @@ nav ul a:hover {
   color: white;
 }
 
-h1 {
+.logo {
   font-size: 2rem;
   color: white;
   margin: 10px 0px;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease 0.2s;
+  /* -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s; */
+  padding: 4px;
+}
+
+.slide:hover {
+  box-shadow: inset 300px 0 0 0 white;
+  color: #020202;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 p {
